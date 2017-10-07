@@ -542,10 +542,10 @@ var Creature = Class.create({
 		});
 	},
 
-	/*	faceHex(facefrom,faceto)
+	/*	faceHex(faceto,facefrom)
 	 *
-	 *	facefrom :	Hex or Creature :	Hex to face from
 	 *	faceto :	Hex or Creature :	Hex to face
+	 *	facefrom :	Hex or Creature :	Hex to face from
 	 *
 	 *	Face creature at given hex
 	 *
